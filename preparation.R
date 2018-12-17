@@ -1,0 +1,6 @@
+library(readr)
+user <- Sys.getenv("USERPROFILE")
+datapath <- paste0(user, "\\Downloads\\asti-dath3006wc\\asti-dath3006wc\\h3006world_utf8.csv")
+Data <- read_delim(datapath, "\t", escape_double = FALSE, trim_ws = TRUE)
+setwd("CapitalCityMap/")
+save(Data, file = "Data.RData")
