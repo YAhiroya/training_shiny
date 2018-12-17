@@ -14,7 +14,8 @@ shinyUI(fluidPage(
   # サイドバー 
   sidebarLayout(
     sidebarPanel(
-      uiOutput("pulldownUI")
+      uiOutput("pulldownUI"),
+      imageOutput("Flag")
     ),
     
     # メイン
