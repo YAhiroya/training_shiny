@@ -40,8 +40,7 @@ shinyServer(function(input, output) {
       addMarkers(lng = lng, lat = lat, 
                  popup = as.character(passData()$capital_jp)) %>% 
       setView(lng = lng, lat = lat, zoom = 2)
-    
-  })
+    })
   
   # 国旗の出力
   output$Flag <- renderImage({
