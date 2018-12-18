@@ -2,3 +2,5 @@
 .Rhistory
 .RData
 .Ruserdata
+# 画像データは管理しない
+CapitalCityMap/120pix/
