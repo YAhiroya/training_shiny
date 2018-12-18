@@ -48,6 +48,6 @@ shinyServer(function(input, output) {
       src = paste0("./120pix/", passData()$country_code, "@3x.png"),
       contentType = "image/png"
     ))
-  })
+  }, deleteFile = F)
   
 })
