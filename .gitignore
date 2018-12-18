@@ -2,5 +2,3 @@
 .Rhistory
 .RData
 .Ruserdata
-# 画像データは管理しない
-*.png
